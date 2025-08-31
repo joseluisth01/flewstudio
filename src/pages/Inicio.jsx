@@ -10,6 +10,7 @@ import FormularioCtr from "../components/FormularioCtr";
 import Garantias from "../components/Garantias";
 import FormularioContacto from "../components/FormularioContacto";
 import Footer from "../components/Footer";
+import Opiniones from "../components/Opiniones";
 
 import garantiasImg00 from "../assets/inicio/garantia-inicio-00.png";
 import garantiasImg01 from "../assets/inicio/garantia-inicio-01.png";
@@ -63,6 +64,39 @@ const garantias = {
     },
 };
 
+const opiniones = [
+    {
+        name: "Antonio Luque",
+        timeAgo: "hace 1 año",
+        text: "Espectacular el conjunto, todo el gimnasio lo quiere. Volveré a pedir más sin duda."
+    },
+    {
+        name: "Adrits.11",
+        timeAgo: "hace 8 meses", 
+        text: "El diseño de la hoodie se ha quedado de locos, ha superado mis expectativas."
+    },
+    {
+        name: "Jesús Lara",
+        timeAgo: "hace 6 meses",
+        text: "Tanto los polos como las camisetas de calidad top y entregado a su tiempo."
+    },
+    {
+        name: "Marina Rodríguez",
+        timeAgo: "hace 3 meses",
+        text: "El equipo de FlewStudio captó perfectamente la esencia de mi marca. Las camisetas personalizadas quedaron increíbles."
+    },
+    {
+        name: "Carlos Vega",
+        timeAgo: "hace 2 meses",
+        text: "Proceso súper profesional desde el primer contacto. El acabado de las sudaderas es de primera calidad."
+    },
+    {
+        name: "Laura Sánchez",
+        timeAgo: "hace 1 mes",
+        text: "Hacía tiempo que buscaba un servicio así de completo. Diseño, producción y entrega todo perfecto."
+    }
+];
+
 export default function Inicio()
 {
     return (
@@ -78,6 +112,10 @@ export default function Inicio()
             <Garantias 
                 title="¿PORQUÉ CONTRATAR <span style='color: #fff600;'>NUESTROS SERVICIOS</span>?"
                 guarantees={garantias}
+            />
+            <Opiniones 
+                title='MÁS RAZONES PARA QUE <span style="color: #fff600;">CONFÍES EN FLEWSTUDIO</span>'
+                reviews={opiniones}
             />
             <FormularioContacto />
             <Footer />

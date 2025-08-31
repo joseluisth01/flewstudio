@@ -3,7 +3,7 @@ import React from "react";
 export default function InfoInicio() {
     return (
         <div className="bg-black py-16 lg:py-24">
-            <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-6 lg:px-8">
                 
                 {/* Título principal */}
                 <h2 
@@ -19,7 +19,7 @@ export default function InfoInicio() {
                 </h2>
 
                 {/* Contenedor para subtítulo y texto con el mismo ancho */}
-                <div className="max-w-5xl mx-auto">
+                <div className="mx-auto">
                     
                     {/* Subtítulo */}
                     <h3 

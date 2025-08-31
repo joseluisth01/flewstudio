@@ -9,6 +9,8 @@ import Herramientas from "../components/Herramientas";
 import Garantias from "../components/Garantias";
 import FormularioContacto from "../components/FormularioContacto";
 import Footer from "../components/Footer";
+import Opiniones from "../components/Opiniones";
+
 
 import bannerImg from "../assets/nosotros/main-banner-nosotros.png"
 
@@ -98,8 +100,41 @@ export default function Nosotros()
         },
     };
 
+    const opiniones = [
+    {
+        name: "Antonio Luque",
+        timeAgo: "hace 1 año",
+        text: "Espectacular el conjunto, todo el gimnasio lo quiere. Volveré a pedir más sin duda."
+    },
+    {
+        name: "Adrits.11",
+        timeAgo: "hace 8 meses", 
+        text: "El diseño de la hoodie se ha quedado de locos, ha superado mis expectativas."
+    },
+    {
+        name: "Jesús Lara",
+        timeAgo: "hace 6 meses",
+        text: "Tanto los polos como las camisetas de calidad top y entregado a su tiempo."
+    },
+    {
+        name: "Marina Rodríguez",
+        timeAgo: "hace 3 meses",
+        text: "El equipo de FlewStudio captó perfectamente la esencia de mi marca. Las camisetas personalizadas quedaron increíbles."
+    },
+    {
+        name: "Carlos Vega",
+        timeAgo: "hace 2 meses",
+        text: "Proceso súper profesional desde el primer contacto. El acabado de las sudaderas es de primera calidad."
+    },
+    {
+        name: "Laura Sánchez",
+        timeAgo: "hace 1 mes",
+        text: "Hacía tiempo que buscaba un servicio así de completo. Diseño, producción y entrega todo perfecto."
+    }
+];
+
     return (
-        <div className="pagina-nosotros">
+        <div className="pagina-nosotros bg-black">
             <Header />
             <MainBanner 
                 title={'NOSOTROS'}
@@ -121,9 +156,13 @@ export default function Nosotros()
                 images={[herramientasImg00, herramientasImg01, herramientasImg02, herramientasImg03, herramientasImg04]}
             />
             <Garantias
-                title={'<span style="color: var(--color-neutral-white);">SERVICIOS CON</span> GARANTÍAS REALES'}
+                title={'<span style="color:white !important;">SERVICIOS CON</span> GARANTÍAS REALES'}
                 guarantees={garantias}
             />
+            <Opiniones 
+                            title='ELLOS SE DEJARON.. <span style="color:#fff600 !important;">Y LES GUSTÓ</span> '
+                            reviews={opiniones}
+                        />
             <FormularioContacto />
             <Footer />
         </div>
