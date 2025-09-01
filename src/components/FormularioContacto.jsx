@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FormularioContacto() {
     return (
-        <div className="bg-black flex justify-center py-16 lg:py-24">
+        <div className="bg-black flex justify-center">
             <div 
                 className="w-full max-w-6xl mx-6 lg:mx-8 flex flex-col items-center"
                 style={{

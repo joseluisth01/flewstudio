@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FormularioCtr() {
     return (
-        <div className="bg-black flex justify-center py-16 lg:py-24">
+        <div className="bg-black flex justify-center">
             <div className="bg-primary w-full max-w-6xl mx-6 lg:mx-8 px-8 lg:px-12 py-8 lg:py-12">
                 
                 {/* Título */}
