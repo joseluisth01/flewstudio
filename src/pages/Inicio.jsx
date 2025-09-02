@@ -12,14 +12,14 @@ import FormularioContacto from "../components/FormularioContacto";
 import Footer from "../components/Footer";
 import Opiniones from "../components/Opiniones";
 
-import garantiasImg00 from "../assets/inicio/garantia-inicio-00.png";
-import garantiasImg01 from "../assets/inicio/garantia-inicio-01.png";
-import garantiasImg02 from "../assets/inicio/garantia-inicio-02.png";
-import garantiasImg03 from "../assets/inicio/garantia-inicio-03.png";
-import garantiasImg04 from "../assets/inicio/garantia-inicio-04.png";
-import garantiasImg05 from "../assets/inicio/garantia-inicio-05.png";
-import garantiasImg06 from "../assets/inicio/garantia-inicio-06.png";
-import garantiasImg07 from "../assets/inicio/garantia-inicio-07.png";
+import garantiasImg00 from "../assets/garantias2/innovacion.gif";
+import garantiasImg01 from "../assets/garantias2/atugusto.gif";
+import garantiasImg02 from "../assets/garantias2/avanze.gif";
+import garantiasImg03 from "../assets/garantias2/atencion.gif";
+import garantiasImg04 from "../assets/garantias2/detalles.gif";
+import garantiasImg05 from "../assets/garantias2/calidad.gif";
+import garantiasImg06 from "../assets/garantias2/estrategia.gif";
+import garantiasImg07 from "../assets/garantias2/reconocimiento.gif";
 
 const garantias = {
     "garantia00": {
