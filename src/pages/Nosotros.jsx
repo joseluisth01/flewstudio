@@ -1,5 +1,5 @@
 import React from "react";
-
+// prueba
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
 import InfoGeneral from "../components/InfoGeneral";
